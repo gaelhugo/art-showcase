@@ -1,7 +1,7 @@
 <template>
   <header class="header">
     <h1 class="title">
-      Minimalist Art
+      Minimal Art
     </h1>
     <p class="subtitle">
       A non exhaustive visual repertoire
