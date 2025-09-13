@@ -1,9 +1,9 @@
 <template>
-  <header class="text-center py-8">
-    <h1 class="text-5xl md:text-7xl font-bold tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-gray-100 to-gray-400">
+  <header class="header">
+    <h1 class="title">
       Minimalist Art
     </h1>
-    <p class="mt-4 text-xl md:text-2xl text-gray-300 tracking-wide">
+    <p class="subtitle">
       A non exhaustive visual repertoire
     </p>
   </header>
@@ -12,3 +12,25 @@
 <script setup lang="ts">
 // No props or logic needed for this component
 </script>
+
+<style scoped>
+.header {
+  text-align: center;
+  padding: 16px 0;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  background: linear-gradient(to right, #f3f4f6, #9ca3af);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.subtitle {
+  margin-top: 8px;
+  font-size: 1.25rem;
+  color: #d1d5db;
+}
+</style>
